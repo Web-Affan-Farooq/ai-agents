@@ -7,7 +7,7 @@ Read these notes carefully to know what openrouter actually is [Link](https://gi
 
 #### Setup a new project in uv
 ```bash
-uv init && .venv\Scripts\activate
+uv init . && uv venv  && .venv\Scripts\activate
 ```
 #### Install package :
 ```bash
